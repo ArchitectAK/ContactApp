@@ -16,11 +16,10 @@ export default new Router ({
     component: WelcomePage ,
   },
   {
-
     path: '/ContactsPage',
     component : PageOne, 
-   
-    props: true,},
+    props: true,
+    },
   { 
     path: '/ContactsPage/:id',
     component: ContactDetail ,
