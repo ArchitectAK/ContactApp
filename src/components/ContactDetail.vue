@@ -3,7 +3,7 @@
     <div class="contactDetailConatainer">
       <div class="topButtonsContainer">
         <router-link to="/ContactsPage">
-          <button class="backToButton">Назад к контактам</button></router-link
+          <button class="backToButton">Back to the contact</button></router-link
         >
         <button class="cancelLastAction" @click="cancelLastChange()">
           Undo the last action
